@@ -44,17 +44,17 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
 
-.logo {
+.header__logo {
   height: 3.5rem;
 }
 
-.text-box {
+.header__text-box {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -70,7 +70,7 @@ body {
   margin-bottom: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
@@ -80,11 +80,11 @@ body {
   animation-duration: 2s;
   animation-timing-function: ease-out;
 }
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   font-size: 2rem;
   font-weight: 700;
-  letter-spacing: 17.5rem;
+  letter-spacing: 1.75rem;
   animation: moveInRight 2s ease-out;
 }
 
@@ -94,11 +94,11 @@ body {
     transform: translateX(-10rem);
   }
   80% {
-    transform: translateX(2rem);
+    transform: translateX(1rem);
   }
   100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translate(0);
   }
 }
 
@@ -112,7 +112,7 @@ body {
   }
   100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translate(0);
   }
 }
 
@@ -124,7 +124,7 @@ body {
 
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate(0);
   }
 }
 
@@ -142,6 +142,7 @@ body {
 
 .btn:hover {
   transform: translateY(-3px);
+  background-color: #fff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
@@ -168,7 +169,7 @@ body {
   transition: all 0.4s;
 }
 
-.btn-white::after {
+.btn--white::after {
   background-color: #fff;
 }
 
@@ -177,7 +178,7 @@ body {
   opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
