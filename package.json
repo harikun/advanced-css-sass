@@ -17,5 +17,7 @@
     "url": "https://github.com/harikun/advanced-css-sass/issues"
   },
   "homepage": "https://github.com/harikun/advanced-css-sass#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
 }
