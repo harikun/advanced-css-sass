@@ -2,7 +2,7 @@
   width: 75%;
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rbga($color-black, 0.1);
-  background-color: $color-white;
+  background-color: rgba($color-white, 0.6);
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
@@ -28,7 +28,7 @@
     transition: all 0.5s;
   }
 
-  &_text {
+  &__text {
     transform: skewX(12deg);
   }
 
